@@ -52,7 +52,7 @@ h1 {
 .image {
   width: 400px;          /* Set the width of the image */
   height: 300px;         /* Set the height of the image */
-  max-width: 100%;       /* Optional: Make sure the image is responsive */
+  max-width: 100%;       /* Optaionl: Make sure the image is responsive */
   max-height: 500px;     /* Optional: Set a max height for the image */
 }
 
