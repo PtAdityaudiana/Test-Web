@@ -18,9 +18,14 @@ export default {
 </script>
 
 <style scoped>
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
 .container {
   display: flex;
-  justify-content: top;
+  justify-content: flex-start;
   align-items: center;
   height: 100vh;
   background-color: black;
@@ -29,6 +34,8 @@ export default {
 
 .content {
   text-align: center;
+  color: white;
+  width: 100%;
 }
 
 h1 {

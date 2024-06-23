@@ -1,15 +1,19 @@
 {
-    "version": 2,
     "builds": [
       {
-        "src": "index.js", 
+        "src": ".nuxt/dist/client/**",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "nuxt.config.js",
         "use": "@vercel/node"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "index.js"
+        "dest": "/.nuxt/dist/client/$1"
       }
     ]
   }
+  
