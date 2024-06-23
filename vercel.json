@@ -1,9 +1,0 @@
-{
-    "version": 2,
-    "buld": [
-        {
-        "src": "nuxt.config.js",
-        "use": "@nuxtjs/vercel-bulder"
-        }
-    ]
-}
